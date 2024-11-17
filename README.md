@@ -18,7 +18,7 @@ terraform apply
 ```
 
 ### Resources
-
-Connect with AWS: [Provider Configuration](git@github.com:Harshak777/terraform_scripts.git)
-Create EC2 resource: [aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
+- [Terraform Registry](registry.terraform.io)
+- Connect with AWS: [Provider Configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#provider-configuration)
+- Create EC2 resource: [aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
 
