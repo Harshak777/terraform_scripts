@@ -1,6 +1,12 @@
 # Terraform Scripts
 My personal terraform references.
 
+Default Configurations for AWS.
+```
+$HOME/.aws/config
+$HOME/.aws/credentials
+```
+
 ### Commands:
 
 Steps to run:
@@ -19,6 +25,6 @@ terraform apply
 
 ### Resources
 - [Terraform Registry](registry.terraform.io)
-- Connect with AWS: [Provider Configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#provider-configuration)
+- Connect with AWS (Official Partner): [Provider Configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#provider-configuration)
 - Create EC2 resource: [aws_instance](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
 
