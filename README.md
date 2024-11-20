@@ -7,6 +7,9 @@ $HOME/.aws/config
 $HOME/.aws/credentials
 ```
 
+Basic notes:
+1) Terraform stores the states in a file called `.tfstate`.
+
 ### Commands:
 
 Steps to run:
@@ -23,7 +26,7 @@ terraform plan
 terraform apply
 ```
 
-> Note: Terraform affects all the scripts in a directory. A specific script cannot be planned or deployed in a dir.
+> Note: Terraform affects all the scripts in a directory. A specific script cannot be planned or deployed in a dir. To specifically run a resource use target flag `-target <Resource_Type>.<Local_Resource_Name>`
 
 ### Resources
 - [Terraform Registry](registry.terraform.io)
